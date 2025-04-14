@@ -3,6 +3,7 @@ import numpy as np
 
 # Load dataset
 try:
+    # use trip history training dataset from kaggle
     df = pd.read_csv('/content/trip_history.csv')
 except FileNotFoundError:
     print("Error: File not found.")
