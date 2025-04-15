@@ -1,0 +1,63 @@
+Design Star and Snowflake Schemas
+Choose an organization (e.g., Uber or Ola) and identify relevant business processes
+(e.g., booking, payment, customer support). Design Star and Snowflake schemas to
+analyze these processes.
+ Create a Fact Constellation Schema
+Integrate the schemas from multiple business processes into a fact constellation
+schema (also known as a galaxy schema) for unified analysis.
+ ETL Implementation
+Extract trip data, customer records, and transactions from various sources. Apply
+transformations and load the cleaned data into your destination schema using an ETL
+tool
+ Data Preprocessing for Trip History
+Load the bike-sharing dataset. Clean and preprocess data by handling missing values,
+date-time parsing, and feature engineering (e.g., duration bins, user age groups).
+ Predict User Class (Subscriber vs Customer)
+Build a classification model (like Logistic Regression, Random Forest, or XGBoost)
+to predict user class using engineered features. Evaluate using accuracy, precision,
+recall, and F1 score.
+ Train a classifier Naive Bayes on the vectorized dataset. Evaluate the classifier using
+precision, recall, and F1 score. Perform cross-validation for robustness.
+ Frequent Itemset Mining using A-Priori
+Apply the Apriori algorithm on a transactional dataset (e.g., online retail). Identify
+frequent itemsets using a chosen minimum support threshold.
+ Generate Strong Association Rules
+From the frequent itemsets, generate association rules using confidence thresholds.
+Interpret the business implications of these rules (e.g., product bundling,
+recommendation).
+ Linear Regression on Housing Prices
+Use the Boston Housing dataset to train a Linear Regression model. Explore
+correlation, multicollinearity, and build a predictive model to estimate housing prices.
+ Model Evaluation & Improvement
+Evaluate using R², RMSE, and MAE. Try feature scaling, polynomial regression, or
+regularization (Ridge/Lasso) to improve performance.
+ Exploratory Data Analysis (EDA) on Bicycle Data
+Perform EDA on hourly/daily bike count data. Analyze seasonal trends, weather
+impact, day vs night usage, and holiday effects.
+ Predict Bike Trips using Regression Models
+Use weather and time-related features to predict number of bicycle trips using Linear
+Regression,
+ Preprocessing and Stationarity Check
+Load the COVID-19 dataset from Kaggle. Clean and analyze the time series. Apply
+stationarity tests (ADF) and visualize trends and seasonality.
+ARIMA Modeling for Forecasting
+Use ARIMA models to forecast future COVID cases. Visualize predictions.
+ For an organization of your choice, choose a set of business processes. Design star / snow
+flake schemas for analyzing these processes. Create a fact constellation schema by combining
+them. Extract data from different data sources, apply suitable transformations and load into
+destination tables using an ETL tool.
+ Trip History Analysis: Use trip history dataset that is from a bike sharing service in the
+United States. The data is provided quarter-wise from 2010 (Q4) onwards. Each file has 7
+columns. Predict the class of user.
+ Consider a suitable text dataset. Remove stop words, apply stemming and feature selection
+techniques to represent documents as vectors. Classify documents and evaluate precision,
+recall.
+ Apply a-priori algorithm to find frequently occurring items from given data and generate
+strong association rules using support and confidence thresholds.
+ Download Boston Housing dataset. Create a Model using linear regression to predict the
+houses price.
+ Predict the number of bicycle trips across Seattle's Fremont Bridge based on weather, season,
+and other factors and also Figure out what we can learn about people in Seattle from hourly
+commute data. (The daily or hourly bicycle counts can be downloaded from
+http://data.seattle.gov/)
+ Apply ARIMA model to perform time series analysis on COVID- India Dataser from Kaggle.
