@@ -16,8 +16,10 @@ date-time parsing, and feature engineering (e.g., duration bins, user age groups
 Build a classification model (like Logistic Regression, Random Forest, or XGBoost)
 to predict user class using engineered features. Evaluate using accuracy, precision,
 recall, and F1 score.
+
  Train a classifier Naive Bayes on the vectorized dataset. Evaluate the classifier using
 precision, recall, and F1 score. Perform cross-validation for robustness.
+
  Frequent Itemset Mining using A-Priori
 Apply the Apriori algorithm on a transactional dataset (e.g., online retail). Identify
 frequent itemsets using a chosen minimum support threshold.
@@ -25,9 +27,11 @@ frequent itemsets using a chosen minimum support threshold.
 From the frequent itemsets, generate association rules using confidence thresholds.
 Interpret the business implications of these rules (e.g., product bundling,
 recommendation).
+
  Linear Regression on Housing Prices
 Use the Boston Housing dataset to train a Linear Regression model. Explore
 correlation, multicollinearity, and build a predictive model to estimate housing prices.
+
  Model Evaluation & Improvement
 Evaluate using R², RMSE, and MAE. Try feature scaling, polynomial regression, or
 regularization (Ridge/Lasso) to improve performance.
@@ -56,8 +60,10 @@ recall.
 strong association rules using support and confidence thresholds.
  Download Boston Housing dataset. Create a Model using linear regression to predict the
 houses price.
+
  Predict the number of bicycle trips across Seattle's Fremont Bridge based on weather, season,
 and other factors and also Figure out what we can learn about people in Seattle from hourly
 commute data. (The daily or hourly bicycle counts can be downloaded from
 http://data.seattle.gov/)
+
  Apply ARIMA model to perform time series analysis on COVID- India Dataser from Kaggle.
